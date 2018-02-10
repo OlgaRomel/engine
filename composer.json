@@ -1,0 +1,23 @@
+{
+    "name": "web/engine",
+    "description": "little engine",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Web",
+            "email": "frgyvu@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Web\\Engine\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/http-kernel": "^3.3",
+        "symfony/http-foundation": "^3.3",
+        "symfony/routing": "^3.3"
+    }
+}
